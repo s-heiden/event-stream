@@ -1,0 +1,26 @@
+subprojects {
+    group 'com.heiden'
+    version = '1.0'
+}
+
+
+
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.6'
+    annotationProcessor 'org.projectlombok:lombok:1.18.6'
+    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '2.1.1'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.8'
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '0.17.2'
+}
+
+
+
+

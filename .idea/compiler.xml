@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="banking-core_main" target="1.8" />
+      <module name="banking-core_test" target="1.8" />
+      <module name="customer-service_main" target="1.8" />
+      <module name="customer-service_test" target="1.8" />
+      <module name="event-stream_main" target="1.8" />
+      <module name="event-stream_test" target="1.8" />
+      <module name="transaction-service_main" target="1.8" />
+      <module name="transaction-service_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

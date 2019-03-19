@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking-core/banking-core.iml" filepath="$PROJECT_DIR$/.idea/modules/banking-core/banking-core.iml" group="event-stream/banking-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking-core/banking-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/banking-core/banking-core_main.iml" group="event-stream/banking-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/banking-core/banking-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/banking-core/banking-core_test.iml" group="event-stream/banking-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/.idea/modules/customer-service/customer-service.iml" group="event-stream/customer-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer-service/customer-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/customer-service/customer-service_main.iml" group="event-stream/customer-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer-service/customer-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/customer-service/customer-service_test.iml" group="event-stream/customer-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/event-stream.iml" filepath="$PROJECT_DIR$/.idea/modules/event-stream.iml" group="event-stream" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transaction-service/transaction-service.iml" filepath="$PROJECT_DIR$/.idea/modules/transaction-service/transaction-service.iml" group="event-stream/transaction-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transaction-service/transaction-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/transaction-service/transaction-service_main.iml" group="event-stream/transaction-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transaction-service/transaction-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/transaction-service/transaction-service_test.iml" group="event-stream/transaction-service" />
+    </modules>
+  </component>
+</project>

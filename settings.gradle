@@ -1,0 +1,5 @@
+rootProject.name = 'event-stream'
+include 'banking-core'
+include 'customer-service'
+include 'transaction-service'
+

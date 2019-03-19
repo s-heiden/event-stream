@@ -1,0 +1,27 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'application'
+}
+
+subprojects {
+    group 'com.heiden'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.6'
+        annotationProcessor 'org.projectlombok:lombok:1.18.6'
+        compile group: 'org.apache.kafka', name: 'kafka-clients', version: '2.1.1'
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.7'
+        compile group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: '2.1.3.RELEASE'
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.3.RELEASE'
+        compile group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.2.4.RELEASE'
+        compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+        compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+
+    }
+}
