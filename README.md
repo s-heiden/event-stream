@@ -24,5 +24,5 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning
 ###### IntelliJ IDEA
 - open IntelliJ project `event-stream`
 - start run-configurations: `banking-core`, `customer-service`, `transaction-service`
-- open [customer](http://localhost:8080/customer) and [transaction](localhost:8081/transaction)
+- open [customer](http://localhost:8080/customer) and [transaction](http://localhost:8081/transaction)
 
